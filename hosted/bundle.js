@@ -57,7 +57,7 @@ var DomoList = function DomoList(props) {
         );
     }
 
-    var domoNodes = props.domo.map(function (domo) {
+    var domoNodes = props.domos.map(function (domo) {
         return React.createElement(
             "div",
             { key: domo._id, className: "domo" },
