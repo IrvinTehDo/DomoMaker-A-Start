@@ -3,7 +3,7 @@ const handleDomo = (e) => {
     
     $("#domoMessage").animate({ width:'hide' },350);
     
-    if($("#domoName").val() == '' || $($"#domoAge").val() == '') {
+    if($("#domoName").val() == '' || $("#domoAge").val() == '') {
         handleError("RAWR! All fields are required");
         return false;
     }
